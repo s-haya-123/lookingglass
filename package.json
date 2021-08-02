@@ -5,7 +5,6 @@
   "dependencies": {
     "@pixiv/three-vrm": "^0.6.4",
     "holoplay": "^1.0.3",
-    "three": "^0.130.1",
     "worker-plugin": "^3.2.0"
   },
   "devDependencies": {
@@ -17,5 +16,9 @@
     "webpack": "^5.47.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
+  },
+  "peerDependencies": {
+    "@types/three": "^0.126.0",
+    "three": "^0.126.1"
   }
 }
